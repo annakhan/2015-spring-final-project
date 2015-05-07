@@ -205,6 +205,25 @@ $padding: 6px;
     z-index: 100;
 }
 
+.vcenter {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    
+    display: box;
+    box-align: center;
+    box-pack: center;
+}
+
+
 /*
 .vcenter {
 	display: -ms-flexbox;
@@ -217,6 +236,8 @@ $padding: 6px;
 }
 */
 
+
+/*
 .vcenter {
 	display: table;
 }
@@ -225,3 +246,4 @@ $padding: 6px;
 	display: table-cell;
     vertical-align: middle;
 }
+*/
