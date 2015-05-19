@@ -1,7 +1,29 @@
 /* Layout.scss */
 
 nav[role="navigation"] {
-    position: absolute;
-    right: 10px;
-    top: 10px;
+        display: inline-block;
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+}
+
+a:link, a:visited {
+    display: inline-block;
+    width: 285px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    line-height: 1;
+}
+
+a:hover, a:active {
+    background-color: #000;
+    opacity: .5;
 }

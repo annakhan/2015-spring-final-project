@@ -3,3 +3,4 @@
 // @koala-prepend "vendor/fitter-happier-text.js"
 // @koala-prepend "vendor/equal-height.js"
 // @koala-prepend "vendor/height-offset.js"
+// @koala-prepend "vendor/fancyapps-fancyBox-18d1712"

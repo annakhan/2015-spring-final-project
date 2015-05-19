@@ -10,6 +10,10 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/main.css">
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
     </head>
     <body>
 
@@ -17,41 +21,52 @@
         
         <header role="banner" class="vcenter">
             <nav role="navigation">
-                <a href="#home">Home</a><br/>
-                <a href="docs.html">About me</a><br/>
-                <a href="http://google.com" target="_blank">Resume</a>
+                <ul>
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About me</a>
+                    <a href="resume.html">Resume</a>
+                </ul>
             </nav>
             <div class="banner-text">
-                <h1 class="banner-headline"><font face= "futura"><b>Anna Khan</b></font></h1>
+                <h1 class="banner-headline"><font face= "futura"><b>A|K</b></font></h1>
                 <span class="banner-tagline"><font face= "futura">Graphic Design and Art Portfolio</font></span>
             </div>
         </header>
         
+        <script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
+        
         <main role="main">
             <section class="row main-portraits">
                 <div class="col-4">
-                    <img src="img/Aishwariya%20Rai1.jpg" height="350"/> 
+                    <a href="img/Aishwariya%20Rai1.jpg" class="fancybox" rel="gallery"><img src="img/Aishwariya%20Rai1.jpg"></a>
                 </div>
                 <div class="col-4">
-                    <img src="img/Rose1.jpg" height="350"/> 
+                    <a href="img/Rose1.jpg"><img src="img/Rose1.jpg"></a>
                 </div>
                 <div class="col-4">
-                    <img src="img/Icicles.jpg" height="350"/> 
+                    <a href="img/Icicles.jpg"><img src="img/Icicles.jpg"></a>
                 </div>
                 <div class="col-4">
-                    <img src="img/Eye1.jpg" height="350"/> 
+                    <a href="img/Eye1.jpg"><img src="img/Eye1.jpg"></a>
                 </div>
                 <div class="col-4">
-                    <img src="img/koi1.jpg" height="350"/>
+                    <a href="img/koi3.jpg"><img src="img/koi1.jpg"></a>
                 </div>
                 <div class="col-4">
-                    <img src="img/selfportrait2.jpg"/>
+                    <a href="img/selfportrait1.jpg"><img src="img/selfportrait2.jpg"></a>
                 </div>        
                 <div class="col-4">
-                    <img src="img/screw2.jpg" height="350"/>
+                    <a href="img/screw1.jpg"><img src="img/screw2.jpg"></a>
                 </div>
                 <div class="col-4">
-                    <img src="img/lion2.jpg" height="350"/> 
+                    <a href="img/lion1.jpg"><img src="img/lion2.jpg"></a>
+                </div>
+                <div class="col-4">
+                    <a href="img/front%20yard%20flowers.jpg"><img src="img/front%20yard%20flowers.jpg"></a>
                 </div>
             </section>
 
